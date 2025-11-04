@@ -382,9 +382,9 @@ namespace PridePerception.npcs
             bezz.behaviorStateMachine.ChangeState(new BezzWanderState(bezz, new NavigationState_WanderRandom(bezz, 62)));
         }
 
-        public override void OnStateTriggerStay(Collider collider)
+        public void OnStateTriggerStay(Collider collider)
         {
-            base.OnStateTriggerStay(collider);
+            base.OnStateTriggerStay(collider, true);
 
             if (collider.CompareTag("Player"))
             {
