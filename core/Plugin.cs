@@ -12,8 +12,8 @@ using UnityEngine;
 namespace PridePerception.core
 {
     [BepInDependency("mtm101.rulerp.bbplus.baldidevapi")]
-    [BepInDependency("mtm101.rulerp.baldiplus.leveleditor", BepInDependency.DependencyFlags.SoftDependency)]
-    [BepInPlugin("detectivebaldi.pluspacks.prideperception", "Pride Perception Pack", "1.2.1.0")]
+    [BepInDependency("mtm101.rulerp.baldiplus.levelstudio", BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInPlugin("detectivebaldi.pluspacks.prideperception", "Pride Perception Pack", "1.2.1.1")]
     public class Plugin : BaseUnityPlugin
     {
         public static Plugin current;
@@ -30,7 +30,7 @@ namespace PridePerception.core
 
             assets = new();
 
-            LoadingEvents.RegisterOnAssetsLoaded(Info, runCallbacks, false);
+            LoadingEvents.RegisterOnAssetsLoaded(Info, runCallbacks, LoadingEventOrder.Pre);
 
             GeneratorManagement.Register(this, GenerationModType.Addend, sceneGenerated);
         }
@@ -147,8 +147,8 @@ namespace PridePerception.core
 
         public void registerCompatibilities()
         {
-            if (Chainloader.PluginInfos.ContainsKey("mtm101.rulerp.baldiplus.leveleditor"))
-                LevelEditorCompat.Awake();
+            if (Chainloader.PluginInfos.ContainsKey("mtm101.rulerp.baldiplus.levelstudio"))
+                Debug.LogWarning("Level Studio support is not implemented yet");
         }
 
         public void sceneGenerated(string sceneTitle, int sceneIndex, SceneObject sceneObject)
