@@ -62,19 +62,19 @@
       <HintPath>D:\files\2025\October\Baldis.Basics.Plus.v0.12.2\Baldis.Basics.Plus.v0.12.2\BepInEx\core\MonoMod.Utils.dll</HintPath>
     </Reference>
     <Reference Include="MTM101BaldAPI">
-      <HintPath>D:\files\2025\October\Baldis.Basics.Plus.v0.12.2\Baldis.Basics.Plus.v0.12.2\BepInEx\plugins\BB+ Dev API\MTM101BaldAPI.dll</HintPath>
+      <HintPath>D:\files\2025\October\Baldis.Basics.Plus.v0.12.2\Baldis.Basics.Plus.v0.12.2\BepInEx\plugins\MTM101BaldAPI.dll</HintPath>
     </Reference>
     <Reference Include="NavMeshComponents">
       <HintPath>D:\files\2025\October\Baldis.Basics.Plus.v0.12.2\Baldis.Basics.Plus.v0.12.2\BALDI_Data\Managed\NavMeshComponents.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>D:\files\2025\October\Baldis.Basics.Plus.v0.12.2\Baldis.Basics.Plus.v0.12.2\BepInEx\plugins\BB+ Dev API\Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:\files\2025\October\Baldis.Basics.Plus.v0.12.2\Baldis.Basics.Plus.v0.12.2\BepInEx\plugins\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="PlusLevelFormat">
-      <HintPath>D:\files\2025\October\Baldis.Basics.Plus.v0.12.2\Baldis.Basics.Plus.v0.12.2\BepInEx\plugins\BB+ Level Loading System\PlusLevelFormat.dll</HintPath>
+      <HintPath>D:\files\2025\October\Baldis.Basics.Plus.v0.12.2\Baldis.Basics.Plus.v0.12.2\BepInEx\plugins\PlusLevelFormat.dll</HintPath>
     </Reference>
     <Reference Include="PlusLevelLoader">
-      <HintPath>D:\files\2025\October\Baldis.Basics.Plus.v0.12.2\Baldis.Basics.Plus.v0.12.2\BepInEx\plugins\BB+ Level Loading System\PlusLevelLoader.dll</HintPath>
+      <HintPath>D:\files\2025\October\Baldis.Basics.Plus.v0.12.2\Baldis.Basics.Plus.v0.12.2\BepInEx\plugins\PlusLevelLoader.dll</HintPath>
     </Reference>
     <Reference Include="Rewired_Core">
       <HintPath>D:\files\2025\October\Baldis.Basics.Plus.v0.12.2\Baldis.Basics.Plus.v0.12.2\BALDI_Data\Managed\Rewired_Core.dll</HintPath>
